@@ -18,13 +18,17 @@ This Bash script uses the GitHub API to list all users who have **read access** 
    export username="your_github_username"
    export token="your_personal_access_token"
 2.Run the script:
-./script.sh <repo_owner> <repo_name>
-
+  ```bash
+   ./script.sh <repo_owner> <repo_name>
+```
 ## 📦 Example
-./script.sh octocat Hello-World
-
+```bash
+  ./script.sh octocat Hello-World
+```
 ## 📄 Output
-python-repl
-Users with read access to octocat/Hello-World:
-user1
-user2
+```bash
+   python-repl
+   Users with read access to octocat/Hello-World:
+   user1
+   user2
+```
